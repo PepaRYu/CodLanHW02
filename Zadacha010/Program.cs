@@ -2,12 +2,4 @@
 string number = Console.ReadLine();
 
 
-try
-{   
-    Console.WriteLine(number[2]);
-}
-catch (System.Exception)
-{
-    Console.WriteLine("Третьей цифры нет");
-    throw;
-}
+Console.WriteLine(number[1]);
