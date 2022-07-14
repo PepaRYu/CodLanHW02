@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string number = Console.ReadLine();
+int number = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine(number[1]);
+Console.WriteLine(Convert.ToString(number)[1]);
